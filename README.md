@@ -31,5 +31,4 @@ an OS from scratch on a new drive.
 ![4457f86f96b045a2](https://github.com/user-attachments/assets/fc76c305-e988-4225-9e03-555e460800b7)
 ![6dcc8964ad9238d6](https://github.com/user-attachments/assets/b0a3e3ff-e26d-47cf-b1c6-aaf974d52678)
 
-One last thing to notice is: the extra pcie lanes going to the slot all have capacitors that have not been populated, so if you wanted a speedier link you would have [to solder them on](https://github.com/user-attachments/assets/ed5a1132-19c0-49bc-9205-d89726f15a3b).
-
+One last thing to notice is: the extra pcie lanes going to the slot all have capacitors that have not been populated, so if you wanted a speedier link you would have [to solder them on as well](https://github.com/user-attachments/assets/ed5a1132-19c0-49bc-9205-d89726f15a3b).
