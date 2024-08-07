@@ -17,7 +17,7 @@ it was kind of difficult but nothing some flux and holding a steady hand can't f
 The end result isn't exactly eye candy but that's not what matters, what matters is that it works!
 
 
-Laptop reassembled with a drive stolen from my main machine i tried booting it up, but no luck the drive would not show up in the bios entries nor linux,
-as a tip from my friend i would apparently also need to bridge two other pads (PEDET and GND) for the ssd to be detected by the PCH,  
+Laptop reassembled, with a drive chucked from my main machine, i tried booting it up but no luck the drive would not show up in the bios entries nor linux, 
+though as a tip from my friend i would apparently also need to bridge two other pads (PEDET and GND) for the ssd to be detected by the PCH,  
 because despite the components being present on the boardview and schematic they were not ultimately placed during assembly.
 ![c150c6af6f544226](https://github.com/user-attachments/assets/f1ebd3a9-682c-41c5-9b0f-7b0e58dfb861)
