@@ -21,3 +21,9 @@ Laptop reassembled, with a drive chucked from my main machine, i tried booting i
 though as a tip from my friend i would apparently also need to bridge two other pads (PEDET and GND) for the ssd to be detected by the PCH,  
 because despite the components being present on the boardview and schematic they were not ultimately placed during assembly.
 ![c150c6af6f544226](https://github.com/user-attachments/assets/f1ebd3a9-682c-41c5-9b0f-7b0e58dfb861)
+
+preparing for what should be the final test i once again took the ssd from my main laptop which runs debian btw, painstakingly reassembled the keyboard and 
+booted the machine.
+It worked! the ssd is now recognized with just a single lane which gets me approximately 1GB/s throughput, 
+though UEFI won't let me boot from it i can access the files from a live iso so it could just be a matter of updating uefi entries for this machine or trying to install
+an OS from scratch on a new drive.
