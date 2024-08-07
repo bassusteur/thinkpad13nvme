@@ -8,8 +8,8 @@ Later on i did try using an ssd stolen from another device but with no luck, it 
 so i left it at that for the time being.  
 
 some weeks later i decided to check out the boardview and schematic of the lenovo laptop, to my unexperienced eyes nothing looked off and nvme should have just worked, being that in the schematic
-it showed all the components for pcie present, but my friend i was talking to at the time checked out the specsheet and noticed it mentioned the m.2 slot being sata only,
-not only that but on the schematic she mentioned the laptop manufacturer did not follow pcie spec, and put capacitors on the device side of one of the receiving pcie diffpairs.  
+it showed all the components for pcie present, but my friend i was talking to at the time took a look at the files and in the specsheets she noticed it mentioned the m.2 slot being sata only,
+not only that but the design on the schematic by Quanta, she said, did not follow pcie spec, and put capacitors on the device side of one of the receiving pcie diffpairs.  
 
 So enough talking done, i got to disassembling the laptop and getting down to desolder two capacitors, C224 and C237, and bridging them with some magnet wire,
 it was kind of difficult but nothing some flux and holding a steady hand can't fix. 
