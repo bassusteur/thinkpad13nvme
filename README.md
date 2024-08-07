@@ -10,10 +10,14 @@ so i left it at that for the time being.
 Passed some i decided to check out the boardview and schematic of the lenovo laptop, to my unexperienced eyes nothing looked off and nvme should have just worked, being that in the schematic
 it showed all the components for pcie present, but my friend i was talking to at the time checked out the specsheet and noticed it mentioned the m.2 slot being sata only,
 not only that but on the schematic she mentioned the laptop manufacturer did not follow pcie spec, and put capacitors on the device side of one of the receiving pcie diffpairs.  
+
 So enough talking done, i got to disassembling the laptop and getting down to desolder two capacitors, C224 and C237, and bridging them with some magnet wire,
-it was kind of difficult but nothing some flux and holding a steady hand can't fix.  
+it was kind of difficult but nothing some flux and holding a steady hand can't fix. 
+![632d38f63c54eab7](https://github.com/user-attachments/assets/47bae9c3-e3e3-4adb-8fd6-e4970c90c5b4)
+The end result isn't exactly eye candy but that's not what matters, what matters is that it works!
 
-Laptop reassembled with a drive stolen from my main machine i tried booting it up, but no luck the drive would not show up in the bios entries nor linux, as a tip from my friend 
-i would apparently also need to bridge two other pads (PEDET and GND) for the ssd to be detected by the PCH,  
+
+Laptop reassembled with a drive stolen from my main machine i tried booting it up, but no luck the drive would not show up in the bios entries nor linux,
+as a tip from my friend i would apparently also need to bridge two other pads (PEDET and GND) for the ssd to be detected by the PCH,  
 because despite the components being present on the boardview and schematic they were not ultimately placed during assembly.
-
+![c150c6af6f544226](https://github.com/user-attachments/assets/f1ebd3a9-682c-41c5-9b0f-7b0e58dfb861)
