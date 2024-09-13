@@ -15,7 +15,7 @@ We later discovered that the specsheet listed SATA m.2 as the only [storage opti
 
 So enough talking done, i got to disassembling the laptop and getting down to desolder two capacitors, C224 and C237, and bridging them with some magnet wire,
 it was kind of difficult but nothing some flux and holding a steady hand can't fix.  
-![image](https://github.com/user-attachments/assets/47bae9c3-e3e3-4adb-8fd6-e4970c90c5b4)   
+![image](https://github.com/bassusteur/thinkpad13nvme/blob/main/images/632d38f63c54eab7.jpg?raw=true)   
 The end result isn't exactly eye candy but that's not what matters, what matters is that it works!
 
 
