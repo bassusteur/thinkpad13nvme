@@ -10,7 +10,7 @@ so i left it at that for the time being.
 Some weeks later i decided to check out the boardview and schematic of the Lenovo laptop, to my unexperienced eyes nothing looked off and NVMe should have just worked, being that in the schematic
 all the components for PCIe were present.
 Talking to my friend who took a look at the files she pointed out that the design by Quanta,
-is not exactly ideal as it would be when [correctly implemented for NVMe](https://github.com/user-attachments/assets/8c6cde96-698f-4264-8fcb-caac52429b33), as they [added extra components required in SATA-only configuration.](https://github.com/user-attachments/assets/84771b44-804d-449d-a28c-5a9eb1dad497).
+is not exactly ideal as it would be when [correctly implemented for NVMe](https://raw.githubusercontent.com/bassusteur/thinkpad13nvme/main/images/Screenshot_20240810_173600.png), as they [added extra components required in SATA-only configuration.](https://github.com/bassusteur/thinkpad13nvme/blob/main/images/image2.png).
 We later discovered that the specsheet listed SATA m.2 as the only [storage option.](https://github.com/user-attachments/assets/08a2fda6-a2ea-44c7-a890-eeec80adb582).
 
 So enough talking done, i got to disassembling the laptop and getting down to desolder two capacitors, C224 and C237, and bridging them with some magnet wire,
