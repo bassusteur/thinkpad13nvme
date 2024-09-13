@@ -11,7 +11,7 @@ Some weeks later i decided to check out the boardview and schematic of the Lenov
 all the components for PCIe were present.
 Talking to my friend who took a look at the files she pointed out that the design by Quanta,
 is not exactly ideal as it would be when [correctly implemented for NVMe](https://raw.githubusercontent.com/bassusteur/thinkpad13nvme/main/images/Screenshot_20240810_173600.png), as they [added extra components required in SATA-only configuration.](https://github.com/bassusteur/thinkpad13nvme/blob/main/images/image2.png).
-We later discovered that the specsheet listed SATA m.2 as the only [storage option.](https://github.com/user-attachments/assets/08a2fda6-a2ea-44c7-a890-eeec80adb582).
+We later discovered that the specsheet listed SATA m.2 as the only [storage option.](https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_13/ThinkPad_13_Spec.PDF)
 
 So enough talking done, i got to disassembling the laptop and getting down to desolder two capacitors, C224 and C237, and bridging them with some magnet wire,
 it was kind of difficult but nothing some flux and holding a steady hand can't fix.  
