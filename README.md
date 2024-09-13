@@ -32,6 +32,6 @@ an OS from scratch on a new drive.
 ![image](https://github.com/user-attachments/assets/fc76c305-e988-4225-9e03-555e460800b7)  
 ![image](https://github.com/user-attachments/assets/b0a3e3ff-e26d-47cf-b1c6-aaf974d52678)  
 
-One last thing to notice is: the extra pcie lanes going to the slot all have capacitors that have not been populated, so if you wanted a speedier link you would have [to solder them on as well](https://github.com/user-attachments/assets/058d3fbe-3e6c-4f1c-a9fd-9d0444f03298).
+One last thing to notice is: the extra pcie lanes going to the slot all have capacitors that have not been populated, so if you wanted a speedier link you would have [to solder them on as well](https://github.com/bassusteur/thinkpad13nvme/blob/main/images/355956864-ed5a1132-19c0-49bc-9205-d89726f15a3b.png).
 
 Credits to the mind behind the operation: [wifi](https://github.com/a-little-wifi).
