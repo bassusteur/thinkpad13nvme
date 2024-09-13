@@ -21,7 +21,7 @@ The end result isn't exactly eye candy but that's not what matters, what matters
 
 Or.. not, Laptop reassembled, with a drive chucked from my main machine, i tried booting it up but no luck the drive would not show up in the bios entries nor linux, 
 though as a tip from my friend i would apparently also need to bridge two other pads [(PEDET and GND)](https://github.com/bassusteur/thinkpad13nvme/blob/main/images/image1.png) for the SSD to be detected, because despite the components being present on the boardview and schematic they were not ultimately placed during assembly.
-![image](https://github.com/user-attachments/assets/f1ebd3a9-682c-41c5-9b0f-7b0e58dfb861)  
+![image](https://github.com/bassusteur/thinkpad13nvme/blob/main/images/c150c6af6f544226.jpg)  
 
 Preparing for what should be the final test i once again borrowed an ssd from my main laptop, which runs debian btw, painstakingly reseated the keyboard and 
 booted the machine.
